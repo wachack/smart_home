@@ -14,6 +14,7 @@ __pycache__/*
 */.ipynb_checkpoints/*
 .DS_Store
 logs/
+npm-debug.log*
 
 # Project files
 .ropeproject
@@ -23,6 +24,7 @@ logs/
 .idea
 tags
 instance/*
+!instance/.gitkeep
 
 # Package files
 *.egg
@@ -30,6 +32,7 @@ instance/*
 .installed.cfg
 *.egg-info
 build/
+bootstrap/node_modules/
 
 # Per-project virtualenvs
 venv/
