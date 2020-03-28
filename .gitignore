@@ -24,6 +24,7 @@ npm-debug.log*
 .idea
 tags
 instance/*
+migrations/*
 !instance/.gitkeep
 
 # Package files

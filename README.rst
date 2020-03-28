@@ -21,7 +21,19 @@ The Smart Home application was built using the micro framework Flask. SmartHome 
 Installation
 ============
 
-Soon ;)
+Run development server:
+
+``> python -m venv venv``
+
+``> venv\Scripts\activate``
+
+``> pip install -r requirements.txt``
+
+``> export FLASK_APP=manage.py``
+
+``> export FLASK_ENV=development``
+
+``> flask run``
 
 |
 

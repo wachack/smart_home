@@ -5,7 +5,14 @@ __version__ = '0.0.0'
 __author__ = 'marcinooo'
 __maintainer__ = 'marcinooo'
 
-from .app import app
+from .app import (create_app,
+                  db,
+                  account_models,
+                  home_models)
 
-
-__all__ = ['app', ]
+__all__ = [
+    'create_app',
+    'db',
+    'account_models',
+    'home_models'
+]
